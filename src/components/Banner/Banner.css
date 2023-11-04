@@ -1,0 +1,84 @@
+/************ Banner Css ************/
+.banner {
+    margin-top: 0;
+    
+    padding: 8rem 0 6.25rem 0;
+    background-image: url('../../assets/img/banner-bg.png');
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner .tagline {
+    font-weight: 700;
+    letter-spacing: .05rem;
+    padding: .5rem .625rem;
+    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+    border: .0625rem solid rgba(255, 255, 255, 0.5);
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.banner h1 {
+    width: 37rem;
+    font-size: 4.0625rem;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    line-height: 1;
+    margin-bottom: 1.25rem;
+    display: block;
+}
+
+.banner p {
+    color: #dddddd;
+    font-size: 1.125rem;
+    letter-spacing: .05rem;
+    line-height: 1.5em;
+    width: 96%;
+}
+
+.banner button {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 3.75rem;
+    letter-spacing: .05rem;
+    display: flex;
+    align-items: center;
+}
+
+.banner button svg {
+    font-size: 1.5625rem;
+    margin-left: .625rem;
+    transition: 0.3s ease-in-out;
+    line-height: 1;
+}
+
+.banner button:hover svg {
+    margin-left: 1.5625rem;
+}
+
+.banner .PCImg {
+    width: 80%;
+    animation: updown 3s linear infinite;
+    margin: 2rem 8rem 8rem 8rem;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-1.25rem);
+    }
+
+    50% {
+        transform: translateY(1.25rem);
+    }
+
+    100% {
+        transform: translateY(-1.25rem);
+    }
+}
+
+.txt-rotate>.wrap {
+    border-right: 0.08em solid #666;
+}
