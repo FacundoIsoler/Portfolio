@@ -2,7 +2,6 @@ import './Banner.css';
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import meet from "../../assets/img/meet.svg";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import { Skills } from '../Skills/Skills.js';
@@ -57,7 +56,6 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <span className="tagline">Bienvenido a mi Portfolio</span>
                   <h1>{`Hola! Soy Facundo un `} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Actualmente escribo con lenguaje javascript, con principal aplicación de tecnologías como: <br/> <br/>
                     Base de datos : nosql o mongodb <br/>

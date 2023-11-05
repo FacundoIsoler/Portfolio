@@ -1,8 +1,13 @@
 import './Skills.css';
+import Carousel from 'react-multi-carousel';
+import "react-multi-carousel/lib/styles.css";
 import React from "../../assets/img/React.svg";
 import PostgressSQL from "../../assets/img/PostgreSQL.svg"
-import meter2 from "../../assets/img/meter2.svg";
-import Carousel from 'react-multi-carousel';
+import Redux from "../../assets/img/redux.svg"
+import Tailwind from "../../assets/img/tailwind.svg"
+import Boostrap from "../../assets/img/bootstrap.svg"
+import Express from "../../assets/img/express.svg"
+import MongoDB from "../../assets/img/mongodb.svg"
 import 'react-multi-carousel/lib/styles.css';
 
 export const Skills = () => {
@@ -42,20 +47,21 @@ export const Skills = () => {
                 </div>
               </div>
               <div className="carrusels">
-                <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                <Carousel responsive={responsive} infinite={true} showDots={false} 
+                  className="owl-carousel owl-theme skill-slider">
                   <div className="item">
                     <img src={React} alt="Image" />
                     <h5>React</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={Redux} alt="Image" />
                     <h5>Redux</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={Tailwind} alt="Image" />
                     <h5>Tailwind</h5>
                   </div><div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={Boostrap} alt="Image" />
                     <h5>Boostrap</h5>
                   </div>
                 </Carousel>
@@ -65,11 +71,11 @@ export const Skills = () => {
                     <h5>PostgressSQL</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={Express} alt="Image" />
                     <h5>Express</h5>
                   </div>
                   <div className="item">
-                    <img src={meter2} alt="Image" />
+                    <img src={MongoDB} alt="Image" />
                     <h5>MongoDB</h5>
                   </div>
                 </Carousel>
