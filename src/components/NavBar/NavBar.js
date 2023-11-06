@@ -1,7 +1,7 @@
 import './NavBar.css';
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../../assets/img/logo.svg';
+import logo from '../../assets/img/facundo.svg';
 import linkedin from '../../assets/img/nav-icon1.svg';
 import github from '../../assets/img/nav-icon2.svg';
 import instagram from '../../assets/img/nav-icon3.svg';
@@ -37,7 +37,7 @@ export const NavBar = () => {
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
+          <Navbar.Brand href="/" className='logo'>
             <img src={logo} alt='logo'/>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">

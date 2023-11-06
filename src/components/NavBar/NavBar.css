@@ -9,15 +9,7 @@ nav.navbar {
     background-color: black;
 }
 
-.tagline {
-    color: white;
-    font-weight: 700;
-    letter-spacing: .05rem;
-    padding: .5rem .625rem;
-    background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-    border: .0625rem solid rgba(255, 255, 255, 0.5);
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
+.logo {
     display: inline-block;
 }
 
