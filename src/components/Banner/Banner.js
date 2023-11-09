@@ -12,7 +12,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer"];
+  const toRotate = ["Programador Web"];
   const period = 2000;
 
   useEffect(() => {
@@ -55,13 +55,13 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                  <h1>{`Hola! Soy Facundo un `} <span className="txt-rotate" dataPeriod="1000" data-rotate='["Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Actualmente escribo con lenguaje javascript, con principal aplicación de tecnologías como: <br/> <br/>
-                    Base de datos : nosql o mongodb <br/>
-                    Back: postgress, express <br/>
-                    Front: react - redux, tailwind responsive desing <br/>
-                    <br/>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> 
+                  <h1>{`Hola! Soy Facundo`} <br/>{" un "}<span className="txt-rotate" dataPeriod="10" data-rotate='["Programador Web"]'><span className="wrap">{text}</span></span></h1>
+                  <p>Actualmente escribo con lenguaje javascript, con principal aplicación de tecnologías como: <br /> <br />
+                    Base de datos : nosql o mongodb <br />
+                    Back: postgress, express <br />
+                    Front: react - redux, tailwind responsive desing <br />
+                    <br />
                     Con aplicación de otras tecnologías acompañantes.
                     Me considero una persona entusiasta con ganas de aprender y aportar mis conocimientos al trabajo.</p>
                 </div>}
@@ -71,7 +71,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={meet} alt="Meet Img" className='PCImg'/>
+                  <img src={meet} alt="Meet Img" className='PCImg' />
                 </div>}
             </TrackVisibility>
           </Col>
