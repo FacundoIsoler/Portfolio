@@ -1,7 +1,7 @@
 /************ Footer Css ************/
 .footer {
     padding: 0 0 0 0;
-    background-image: url('../../assets/img/footer-bg.png');
+    background: linear-gradient(90.21deg, #005281 -5.91%, rgb(3, 3, 3) 111.58%);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

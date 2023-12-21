@@ -1,13 +1,9 @@
 #carouselFrontEnd {
-    border: blue solid 1px;
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-.carousel-item{
-    border: red solid 1px;
-}
 
 #carouselFrontEnd img{
     width: 15rem;

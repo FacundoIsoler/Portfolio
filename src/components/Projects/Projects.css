@@ -25,12 +25,11 @@
     width: 72%;
     margin: 0 auto;
     border-radius: 3.125rem;
-    background-color: rgb(255 255 255 / 10%);
     overflow: hidden;
 }
 
 .project .nav.nav-pills .nav-item {
-    width: 33.33333%;
+    width: 100%;
 }
 
 .project .nav.nav-pills .nav-link {
@@ -53,7 +52,7 @@
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #12a4f8 -5.91%, rgb(1, 89, 100) 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
@@ -86,7 +85,7 @@
 
 /************ Projects Css ************/
 .contact {
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #12a4f8 -5.91%, rgb(1, 89, 100) 111.58%);
     padding: 3.75rem 0 12.5rem 0;
 }
 

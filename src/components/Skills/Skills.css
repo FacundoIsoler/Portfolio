@@ -1,20 +1,19 @@
 /* Skills.css */
 
 .skill-bx {
-    background: #151515;
+    background: none;
     border-radius: 4rem;
-    text-align: center;
     margin-top: -3.75rem;
 }
 
 .skill h2 {
     font-size: 2.8125rem;
     font-weight: 700;
+    text-align: center;
 }
 
 .skill .front-back {
     display: flex;
-    text-align: center;
 }
 
 /* CarouselContainer.css */
@@ -29,7 +28,6 @@
 }
 
 .carousels>* {
-    flex: 0 0 auto;
     width: 50%;
     /* Mostrar dos carruseles uno al lado del otro, ajusta según sea necesario */
 }

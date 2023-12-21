@@ -6,7 +6,7 @@ nav.navbar {
     top: 0;
     z-index: 9999;
     transition: 0.32s ease-in-out;
-    background-color: black;
+    background: linear-gradient(90.21deg, #005281 -5.91%, rgb(3, 3, 3) 111.58%);
 }
 
 .logo {
